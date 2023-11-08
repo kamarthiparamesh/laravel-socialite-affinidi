@@ -28,7 +28,5 @@
       "name": "Paramesh Kamarthi",
       "email": "paramesh.k@affinidi.com"
     }
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  ]
 }
