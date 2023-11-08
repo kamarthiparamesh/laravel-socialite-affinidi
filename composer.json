@@ -9,10 +9,6 @@
     "socialite"
   ],
   "homepage": "https://affinidi.com",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kamarthiparamesh/laravel-socialite-affinidi.git"
-  },
   "support": {
       "issues": "https://github.com/kamarthiparamesh/laravel-socialite-affinidi/issues",
       "source": "https://github.com/kamarthiparamesh/laravel-socialite-affinidi"
