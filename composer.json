@@ -1,0 +1,38 @@
+{
+  "name": "kamarthiparamesh/laravel-socialite-affinidi",
+  "description": "Affinidi (affinidi.com) OAuth2 Provider for Laravel Socialite.",
+  "keywords": [
+    "affinidi",
+    "laravel",
+    "oauth",
+    "provider",
+    "socialite"
+  ],
+  "homepage": "https://affinidi.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamarthiparamesh/laravel-socialite-affinidi.git"
+  },
+  "support": {
+      "issues": "https://github.com/kamarthiparamesh/laravel-socialite-affinidi/issues",
+      "source": "https://github.com/kamarthiparamesh/laravel-socialite-affinidi"
+  },
+  "require": {
+    "php": "^8.0",
+    "laravel/socialite": "^5.10"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Affinidi\\SocialiteProvider\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Paramesh Kamarthi",
+      "email": "paramesh.k@affinidi.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
