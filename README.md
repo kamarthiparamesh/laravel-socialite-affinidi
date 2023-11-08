@@ -11,7 +11,7 @@ To get started with Affinidi Socialite, follow these steps:
 1. Install the Affinidi Socialite package using Composer:
 
 ```
-composer require affinidi/laravel-socialite-affinidi
+composer require kamarthiparamesh/laravel-socialite-affinidi
 ```
 
 2. Add the following configuration to your `config/services.php` file:
