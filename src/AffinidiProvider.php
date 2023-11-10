@@ -130,7 +130,7 @@ class AffinidiProvider extends AbstractProvider implements ProviderInterface
         return (new User)->setRaw($user)->map([
             'id' => Arr::get($user, 'sub'),
             'nickname' => Arr::get($user, 'nickname'),
-            'name' => Arr::get($user, 'name'),
+            'name' => Arr::get($user, 'givenName') . ' ' . Arr::get($user, 'familyName'),
             'email' => Arr::get($user, 'email'),
         ]);
     }
